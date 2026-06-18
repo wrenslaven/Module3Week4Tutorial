@@ -1,2 +1,4 @@
 <Solution>
+  <Project Path="StringLibrary/StringLibrary.csproj" />
+  <Project Path="StringLibraryTest/StringLibraryTest.csproj" />
 </Solution>
