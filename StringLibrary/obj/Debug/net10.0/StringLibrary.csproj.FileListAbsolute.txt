@@ -5,6 +5,7 @@ C:\Users\wrens\Documents\Projects\ClassLibraryProjects\StringLibrary\obj\Debug\n
 C:\Users\wrens\Documents\Projects\ClassLibraryProjects\StringLibrary\obj\Debug\net10.0\StringLibrary.AssemblyInfoInputs.cache
 C:\Users\wrens\Documents\Projects\ClassLibraryProjects\StringLibrary\obj\Debug\net10.0\StringLibrary.AssemblyInfo.cs
 C:\Users\wrens\Documents\Projects\ClassLibraryProjects\StringLibrary\obj\Debug\net10.0\StringLibrary.csproj.CoreCompileInputs.cache
+C:\Users\wrens\Documents\Projects\ClassLibraryProjects\StringLibrary\obj\Debug\net10.0\StringLibrary.sourcelink.json
 C:\Users\wrens\Documents\Projects\ClassLibraryProjects\StringLibrary\obj\Debug\net10.0\StringLibrary.dll
 C:\Users\wrens\Documents\Projects\ClassLibraryProjects\StringLibrary\obj\Debug\net10.0\refint\StringLibrary.dll
 C:\Users\wrens\Documents\Projects\ClassLibraryProjects\StringLibrary\obj\Debug\net10.0\StringLibrary.pdb

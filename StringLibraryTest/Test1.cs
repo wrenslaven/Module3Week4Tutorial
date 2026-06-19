@@ -2,10 +2,9 @@
 
 namespace StringLibraryTest
 {
-    [TestClass]
     public sealed class Test1
     {
-        [TestMethod]
+        [Fact]
         public void TestStartsWithUpper()
         {
             // Tests that we expect to return true.
@@ -13,11 +12,11 @@ namespace StringLibraryTest
             foreach (var word in words)
             {
                 bool result = word.StartsWithUpper();
-                Assert.IsTrue(result, $"Expected for '{word}': true; Actual: {result}");
+                Assert.True(result, $"Expected for '{word}': true; Actual: {result}");
             }
         }
 
-        [TestMethod]
+        [Fact]
         public void TestDoesNotStartWithUpper()
         {
             // Tests that we expect to return false.
@@ -26,11 +25,11 @@ namespace StringLibraryTest
             foreach (var word in words)
             {
                 bool result = word.StartsWithUpper();
-                Assert.IsFalse(result, $"Expected for '{word}': false; Actual: {result}");
+                Assert.False(result, $"Expected for '{word}': false; Actual: {result}");
             }
         }
 
-        [TestMethod]
+        [Fact]
         public void DirectCallWithNullOrEmpty()
         {
             // Tests that we expect to return false.
@@ -38,7 +37,7 @@ namespace StringLibraryTest
             foreach (var word in words)
             {
                 bool result = StringLibrary.StartsWithUpper(word);
-                Assert.IsFalse(result, $"Expected for '{word ?? "<null>"}': false; Actual: {result}");
+                Assert.False(result, $"Expected for '{word ?? "<null>"}': false; Actual: {result}");
             }
         }
     }
